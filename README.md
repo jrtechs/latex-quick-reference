@@ -20,3 +20,12 @@ I reccomend using LaTeX using one of the three following options:
 LaTeX is a powerful, fun and robust way of generating formatted documents.
 Even if you are an expert at LaTeX, you are often working on templates or looking up pluggins to do new things like create DFA diagrams.
 This repository serves as a quick reference for me to both access templates/examples that I frequently use, along with share what I know with others.
+
+
+
+# Other Personal LaTeX Examples
+
+- [CSCI-471-Final Lit Review Paper](https://github.com/jrtechs/csci-471-final)
+- [PUBL 201 Final LaTaX Paper](https://github.com/jrtechs/PUBL-201-FINAL)
+- [Analysis Of Algorithms Example](https://github.com/jrtechs/CSCI-261-HW-3)
+- [CSCI-471 User Documentation Example IEEE](https://github.com/jrtechs/Jupyter-Lab-Documentation)
