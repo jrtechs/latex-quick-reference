@@ -1,0 +1,48 @@
+% this is a comment!!!
+% these don't appear in your final rendered document
+
+
+\documentclass{article} % Starts an article
+\usepackage{amsmath} % Imports amsmath
+\title{\LaTeX Introduction} % Title
+% \LaTeX prints LaTeX all fancy like
+\author{Jeffery Russell}
+
+\begin{document} % Begins a document
+  \maketitle % places document at start of file
+  \LaTeX{} is a document preparation system for
+  the \TeX{} typesetting program.
+
+\section{Math}
+
+	In \LaTeX, there are tons of options for writing math.
+	Over time you will memorize a lot of them, however, TexMaker has a side panel with all the math symbols. Math can be done in-line with single dollar signs like this: $y = mx +b$. Isn't this cool! However, math can also be done in bigger blocks that you can then reference.
+
+  % The following shows some math examples
+  \begin{align}
+  	\label{math1}
+    E_0 &= mc^2 \\
+    E &= \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}
+  \end{align} 
+  
+ Look at equation \ref{math1}. Isn't that a cool function! Math blocks can also be constructed using the double dollar sign. But, these don't get a reference number associated with them.
+ 
+ 
+$$
+\begin{bmatrix}
+1 & 3\\
+7 & 5
+\end{bmatrix} \odot
+\begin{bmatrix}
+6 & 8\\
+4 & 2
+\end{bmatrix}\\*
+$$
+
+
+
+Cool right?
+
+
+
+\end{document}
